@@ -1,7 +1,7 @@
 # Generative AI Project
 
 ## Timetable
-Preliminary project idea planning - 1hr
+Preliminary project idea planning - 1hr20min
 
 
 Ideas:

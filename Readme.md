@@ -8,6 +8,8 @@ Ideas:
 - RAG: build a chatbot for a specific file (music lyrics with Kaggle)
 - Information extraction from website reviews
 - Travel itenary planner (Dataset maybe Tripadvisor from Kaggle or some other)
+- AI Summarizer for News/Articles/PDFs/Research papers etc
+  
 
 
 kaggle music dataset:

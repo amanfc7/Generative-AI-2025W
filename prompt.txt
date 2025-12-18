@@ -1,0 +1,18 @@
+You are extracting a scientific knowledge graph.
+
+DO NOT extract:
+- authors
+- affiliations
+- citations
+- references
+- co-author relationships
+
+ONLY extract:
+- Models, algorithms, architectures
+- Tasks and problems
+- Datasets
+- Metrics
+- System components
+- Relationships such as "uses", "improves", "compares", "evaluated_on"
+
+Return concise, technical entities.

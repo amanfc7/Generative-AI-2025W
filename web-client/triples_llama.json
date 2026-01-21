@@ -1,0 +1,2055 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "lstm",
+        "label": "lstm",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "transformer",
+        "label": "transformer",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "time_series_predictions",
+        "label": "time_series_predictions",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cloud_workloads",
+        "label": "cloud_workloads",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "resource_utilization",
+        "label": "resource_utilization",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cpu_usage",
+        "label": "cpu_usage",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "memory_usage",
+        "label": "memory_usage",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "transfer_learning",
+        "label": "transfer_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "machine_learning",
+        "label": "machine_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "deep_learning",
+        "label": "deep_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "statistical_methods",
+        "label": "statistical_methods",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "arima",
+        "label": "arima",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "neural_network",
+        "label": "neural_network",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mlp",
+        "label": "mlp",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rbf",
+        "label": "rbf",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "time_series_prediction_methods",
+        "label": "time_series_prediction_methods",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rnn",
+        "label": "rnn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bilstm",
+        "label": "bilstm",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cloud_workload_prediction",
+        "label": "cloud_workload_prediction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "google_cluster_trace",
+        "label": "google_cluster_trace",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "attention_seq2seq",
+        "label": "attention_seq2seq",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "nbeats",
+        "label": "nbeats",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "random_forest",
+        "label": "random_forest",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "naive_benchmark",
+        "label": "naive_benchmark",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "azure_dataset",
+        "label": "azure_dataset",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "alibaba_dataset",
+        "label": "alibaba_dataset",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "knn_imputation_method",
+        "label": "knn_imputation_method",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "savitzkygolay_filter",
+        "label": "savitzkygolay_filter",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cpu_load",
+        "label": "cpu_load",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "machine_learning_models",
+        "label": "machine_learning_models",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mse",
+        "label": "mse",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mae",
+        "label": "mae",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rmse",
+        "label": "rmse",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cpu_usage_distribution",
+        "label": "cpu_usage_distribution",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "memory_usage_distribution",
+        "label": "memory_usage_distribution",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "train_data_max_cpu",
+        "label": "train_data_max_cpu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "train_data_max_memory",
+        "label": "train_data_max_memory",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "validation_data_max_cpu",
+        "label": "validation_data_max_cpu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "validation_data_max_memory",
+        "label": "validation_data_max_memory",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "test_data_max_cpu",
+        "label": "test_data_max_cpu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "test_data_max_memory",
+        "label": "test_data_max_memory",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ood_data_max_cpu",
+        "label": "ood_data_max_cpu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ood_data_max_memory",
+        "label": "ood_data_max_memory",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "arima_model",
+        "label": "arima_model",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rf",
+        "label": "rf",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "dl",
+        "label": "dl",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "algorithm1",
+        "label": "algorithm1",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tableiii",
+        "label": "tableiii",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tableiv",
+        "label": "tableiv",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fig8",
+        "label": "fig8",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hardware_setup",
+        "label": "hardware_setup",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tamps",
+        "label": "tamps",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mean",
+        "label": "mean",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "standard_deviation",
+        "label": "standard_deviation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cpu",
+        "label": "cpu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "memory",
+        "label": "memory",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "nb",
+        "label": "nb",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "load_prediction",
+        "label": "load_prediction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "database_service",
+        "label": "database_service",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cluster_data",
+        "label": "cluster_data",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "google_cluster_traces",
+        "label": "google_cluster_traces",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "azure_public_dataset",
+        "label": "azure_public_dataset",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "alibaba_clusterdata",
+        "label": "alibaba_clusterdata",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "swarm_based_prediction",
+        "label": "swarm_based_prediction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "self_directed_learning",
+        "label": "self_directed_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hierarchical_framework",
+        "label": "hierarchical_framework",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "reinforcement_learning",
+        "label": "reinforcement_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "demystifying_deep_learning",
+        "label": "demystifying_deep_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "multivariate_attention_network",
+        "label": "multivariate_attention_network",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "missing_values_handling",
+        "label": "missing_values_handling",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "google_trace_analysis",
+        "label": "google_trace_analysis",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "clustering_numerosity_reduction",
+        "label": "clustering_numerosity_reduction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "time_series_forecasting",
+        "label": "time_series_forecasting",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "feature_extraction_time_warping",
+        "label": "feature_extraction_time_warping",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "neural_expansion_architecture",
+        "label": "neural_expansion_architecture",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "host_load_prediction",
+        "label": "host_load_prediction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "centralized_federated_learning",
+        "label": "centralized_federated_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "online_collection_forecasting",
+        "label": "online_collection_forecasting",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "transfer_learning_survey",
+        "label": "transfer_learning_survey",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "deep_neural_network",
+        "label": "deep_neural_network",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "multivariate_workload_prediction",
+        "label": "multivariate_workload_prediction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "psr_ea_gmdh",
+        "label": "psr_ea_gmdh",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "multi_step_ahead_host_load_prediction",
+        "label": "multi_step_ahead_host_load_prediction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "autoencoder_echo_state_networks",
+        "label": "autoencoder_echo_state_networks",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "recurrent_neural_network",
+        "label": "recurrent_neural_network",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "workload_prediction_recurrent_neural_network",
+        "label": "workload_prediction_recurrent_neural_network",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "time_series_prediction",
+        "label": "time_series_prediction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "google_cluster_dataset",
+        "label": "google_cluster_dataset",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "clusterdata20112_trace",
+        "label": "clusterdata20112_trace",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "machine_events_table",
+        "label": "machine_events_table",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "machine_attributes_table",
+        "label": "machine_attributes_table",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "job_events_table",
+        "label": "job_events_table",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "task_event_table",
+        "label": "task_event_table",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "task_constraints_table",
+        "label": "task_constraints_table",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "task_resource_usage_table",
+        "label": "task_resource_usage_table",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "deep_learning_models",
+        "label": "deep_learning_models",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "algorithm_1",
+        "label": "algorithm_1",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_iii",
+        "label": "table_iii",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_iv",
+        "label": "table_iv",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "figure_8",
+        "label": "figure_8",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "m4_competition",
+        "label": "m4_competition",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cloud_load_estimation",
+        "label": "cloud_load_estimation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "clustering_based_numerosity_reduction",
+        "label": "clustering_based_numerosity_reduction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "esdnn",
+        "label": "esdnn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "parameters",
+        "label": "parameters",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hyperparameters",
+        "label": "hyperparameters",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "architecture",
+        "label": "architecture",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "training_process",
+        "label": "training_process",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "prediction",
+        "label": "prediction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "server",
+        "label": "server",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "model",
+        "label": "model",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "training_jobs",
+        "label": "training_jobs",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "lstm_model",
+        "label": "lstm_model",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "transformer_model",
+        "label": "transformer_model",
+        "type": "Entity"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "e0",
+        "source": "time_series_predictions",
+        "target": "cloud_workloads",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e1",
+        "source": "lstm",
+        "target": "resource_utilization",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e2",
+        "source": "transformer",
+        "target": "cpu_usage",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e3",
+        "source": "transfer_learning",
+        "target": "machine_learning",
+        "label": "improves",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e4",
+        "source": "deep_learning",
+        "target": "resource_utilization",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e5",
+        "source": "transfer_learning",
+        "target": "time_series_prediction_methods",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e6",
+        "source": "machine_learning",
+        "target": "deep_learning",
+        "label": "compares",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e7",
+        "source": "rnn",
+        "target": "lstm",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e8",
+        "source": "lstm",
+        "target": "bilstm",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e9",
+        "source": "arima",
+        "target": "time_series_prediction_methods",
+        "label": "compares",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e10",
+        "source": "google_cluster_trace",
+        "target": "attention_seq2seq",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e11",
+        "source": "google_cluster_trace",
+        "target": "lstm",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e12",
+        "source": "google_cluster_trace",
+        "target": "arima",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e13",
+        "source": "google_cluster_trace",
+        "target": "nbeats",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e14",
+        "source": "arima",
+        "target": "naive_benchmark",
+        "label": "compares",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e15",
+        "source": "random_forest",
+        "target": "naive_benchmark",
+        "label": "compares",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e16",
+        "source": "lstm",
+        "target": "naive_benchmark",
+        "label": "compares",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e17",
+        "source": "transformer",
+        "target": "naive_benchmark",
+        "label": "compares",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e18",
+        "source": "random_forest",
+        "target": "arima",
+        "label": "compares",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e19",
+        "source": "lstm",
+        "target": "transformer",
+        "label": "compares",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e20",
+        "source": "google_cluster_trace",
+        "target": "naive_benchmark",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e21",
+        "source": "google_cluster_trace",
+        "target": "cpu_load",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e22",
+        "source": "google_cluster_trace",
+        "target": "memory_usage",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e23",
+        "source": "knn_imputation_method",
+        "target": "cpu_load",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e24",
+        "source": "savitzkygolay_filter",
+        "target": "cpu_load",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e25",
+        "source": "savitzkygolay_filter",
+        "target": "memory_usage",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e26",
+        "source": "machine_learning_models",
+        "target": "cpu_load",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e27",
+        "source": "machine_learning_models",
+        "target": "memory_usage",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e28",
+        "source": "cpu_usage_distribution",
+        "target": "mse",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e29",
+        "source": "memory_usage_distribution",
+        "target": "mae",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e30",
+        "source": "train_data_max_cpu",
+        "target": "cpu_usage_distribution",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e31",
+        "source": "train_data_max_memory",
+        "target": "memory_usage_distribution",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e32",
+        "source": "validation_data_max_cpu",
+        "target": "cpu_usage_distribution",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e33",
+        "source": "validation_data_max_memory",
+        "target": "memory_usage_distribution",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e34",
+        "source": "test_data_max_cpu",
+        "target": "cpu_usage_distribution",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e35",
+        "source": "test_data_max_memory",
+        "target": "memory_usage_distribution",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e36",
+        "source": "ood_data_max_cpu",
+        "target": "cpu_usage_distribution",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e37",
+        "source": "ood_data_max_memory",
+        "target": "memory_usage_distribution",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e38",
+        "source": "arima_model",
+        "target": "mse",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e39",
+        "source": "arima",
+        "target": "parameters",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e40",
+        "source": "rf",
+        "target": "hyperparameters",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e41",
+        "source": "dl",
+        "target": "architecture",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e42",
+        "source": "lstm",
+        "target": "architecture",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e43",
+        "source": "transformer",
+        "target": "architecture",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e44",
+        "source": "algorithm1",
+        "target": "training_process",
+        "label": "is",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e45",
+        "source": "tableiii",
+        "target": "hyperparameters",
+        "label": "contains",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e46",
+        "source": "tableiv",
+        "target": "hyperparameters",
+        "label": "contains",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e47",
+        "source": "fig8",
+        "target": "prediction",
+        "label": "represents",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e48",
+        "source": "hardware_setup",
+        "target": "server",
+        "label": "describes",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e49",
+        "source": "tamps",
+        "target": "mse",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e50",
+        "source": "mse",
+        "target": "mean",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e51",
+        "source": "mse",
+        "target": "standard_deviation",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e52",
+        "source": "cpu",
+        "target": "nb",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e53",
+        "source": "cpu",
+        "target": "arima",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e54",
+        "source": "cpu",
+        "target": "rf",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e55",
+        "source": "cpu",
+        "target": "lstm",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e56",
+        "source": "cpu",
+        "target": "transformer",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e57",
+        "source": "memory",
+        "target": "nb",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e58",
+        "source": "memory",
+        "target": "arima",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e59",
+        "source": "memory",
+        "target": "rf",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e60",
+        "source": "memory",
+        "target": "lstm",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e61",
+        "source": "memory",
+        "target": "transformer",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e62",
+        "source": "nb",
+        "target": "cpu_usage",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e63",
+        "source": "arima",
+        "target": "cpu_usage",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e64",
+        "source": "rf",
+        "target": "cpu_usage",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e65",
+        "source": "lstm",
+        "target": "cpu_usage",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e66",
+        "source": "transformer",
+        "target": "cpu_usage",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e67",
+        "source": "load_prediction",
+        "target": "database_service",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e68",
+        "source": "load_prediction",
+        "target": "cluster_data",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e69",
+        "source": "load_prediction",
+        "target": "google_cluster_traces",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e70",
+        "source": "load_prediction",
+        "target": "azure_public_dataset",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e71",
+        "source": "load_prediction",
+        "target": "alibaba_clusterdata",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e72",
+        "source": "transfer_learning",
+        "target": "deep_learning",
+        "label": "improves",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e73",
+        "source": "swarm_based_prediction",
+        "target": "self_directed_learning",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e74",
+        "source": "hierarchical_framework",
+        "target": "reinforcement_learning",
+        "label": "enables",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e75",
+        "source": "demystifying_deep_learning",
+        "target": "multivariate_attention_network",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e76",
+        "source": "missing_values_handling",
+        "target": "google_trace_analysis",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e77",
+        "source": "clustering_numerosity_reduction",
+        "target": "time_series_forecasting",
+        "label": "enables",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e78",
+        "source": "feature_extraction_time_warping",
+        "target": "neural_expansion_architecture",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e79",
+        "source": "host_load_prediction",
+        "target": "centralized_federated_learning",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e80",
+        "source": "online_collection_forecasting",
+        "target": "transfer_learning_survey",
+        "label": "evaluated_on",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e81",
+        "source": "transfer_learning_survey",
+        "target": "deep_neural_network",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e82",
+        "source": "multivariate_workload_prediction",
+        "target": "psr_ea_gmdh",
+        "label": "compares",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e83",
+        "source": "multi_step_ahead_host_load_prediction",
+        "target": "autoencoder_echo_state_networks",
+        "label": "part_of",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e84",
+        "source": "recurrent_neural_network",
+        "target": "workload_prediction_recurrent_neural_network",
+        "label": "uses",
+        "paper": "pdfs\\SOSE_2024_A_Lackinger_Time (2).pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e85",
+        "source": "lstm",
+        "target": "cloud_workloads",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e86",
+        "source": "transformer",
+        "target": "cloud_workloads",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e87",
+        "source": "arima",
+        "target": "time_series_predictions",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e88",
+        "source": "mlp",
+        "target": "time_series_predictions",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e89",
+        "source": "rbf",
+        "target": "time_series_predictions",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e90",
+        "source": "transfer_learning",
+        "target": "machine_learning",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e91",
+        "source": "transfer_learning",
+        "target": "deep_learning",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e92",
+        "source": "transfer_learning",
+        "target": "rnn",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e93",
+        "source": "transfer_learning",
+        "target": "lstm",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e94",
+        "source": "transfer_learning",
+        "target": "bilstm",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e95",
+        "source": "machine_learning",
+        "target": "arima",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e96",
+        "source": "arima",
+        "target": "random_forest",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e97",
+        "source": "arima",
+        "target": "lstm",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e98",
+        "source": "arima",
+        "target": "transformer",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e99",
+        "source": "random_forest",
+        "target": "lstm",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e100",
+        "source": "random_forest",
+        "target": "transformer",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e101",
+        "source": "naive_benchmark",
+        "target": "azure_dataset",
+        "label": "evaluated_on",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e102",
+        "source": "arima",
+        "target": "clusterdata20112_trace",
+        "label": "part_of",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e103",
+        "source": "random_forest",
+        "target": "clusterdata20112_trace",
+        "label": "part_of",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e104",
+        "source": "lstm",
+        "target": "clusterdata20112_trace",
+        "label": "part_of",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e105",
+        "source": "transformer",
+        "target": "clusterdata20112_trace",
+        "label": "part_of",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e106",
+        "source": "google_cluster_trace",
+        "target": "cpu_usage",
+        "label": "evaluated_on",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e107",
+        "source": "knn_imputation_method",
+        "target": "cpu_usage",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e108",
+        "source": "savitzkygolay_filter",
+        "target": "cpu_usage",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e109",
+        "source": "deep_learning_models",
+        "target": "cpu_usage",
+        "label": "evaluated_on",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e110",
+        "source": "deep_learning_models",
+        "target": "memory_usage",
+        "label": "evaluated_on",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e111",
+        "source": "rf",
+        "target": "hyperparameters",
+        "label": "improves",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e112",
+        "source": "transformer",
+        "target": "model",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e113",
+        "source": "algorithm_1",
+        "target": "training_jobs",
+        "label": "evaluated_on",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e114",
+        "source": "table_iii",
+        "target": "lstm_model",
+        "label": "part_of",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e115",
+        "source": "table_iv",
+        "target": "transformer_model",
+        "label": "part_of",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e116",
+        "source": "cpu",
+        "target": "nb",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e117",
+        "source": "cpu",
+        "target": "arima",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e118",
+        "source": "cpu",
+        "target": "rf",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e119",
+        "source": "cpu",
+        "target": "lstm",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e120",
+        "source": "cpu",
+        "target": "transformer",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e121",
+        "source": "memory",
+        "target": "nb",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e122",
+        "source": "memory",
+        "target": "arima",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e123",
+        "source": "memory",
+        "target": "rf",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e124",
+        "source": "memory",
+        "target": "lstm",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e125",
+        "source": "memory",
+        "target": "transformer",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e126",
+        "source": "nb",
+        "target": "arima",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e127",
+        "source": "nb",
+        "target": "rf",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e128",
+        "source": "nb",
+        "target": "lstm",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e129",
+        "source": "nb",
+        "target": "transformer",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e130",
+        "source": "arima",
+        "target": "rf",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e131",
+        "source": "rf",
+        "target": "lstm",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e132",
+        "source": "rf",
+        "target": "transformer",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e133",
+        "source": "m4_competition",
+        "target": "demystifying_deep_learning",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e134",
+        "source": "cloud_load_estimation",
+        "target": "multivariate_attention_network",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e135",
+        "source": "clustering_based_numerosity_reduction",
+        "target": "time_series_forecasting",
+        "label": "enables",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e136",
+        "source": "online_collection_forecasting",
+        "target": "transfer_learning_survey",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e137",
+        "source": "deep_neural_network",
+        "target": "multivariate_workload_prediction",
+        "label": "uses",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    },
+    {
+      "data": {
+        "id": "e138",
+        "source": "esdnn",
+        "target": "psr_ea_gmdh",
+        "label": "compares",
+        "paper": "pdfs\\Time_Series_Predictions_for_Cloud_Workloads_A_Comprehensive_Evaluation.pdf"
+      }
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PDF Knowledge Graph (Scratch Implementation)</title>
+
+    <!-- Core -->
+    <script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
+    <!-- Layout (optional, auto-fallback if it fails to load) -->
+    <script src="https://unpkg.com/cytoscape-fcose@2.2.0/cytoscape-fcose.js"></script>
+
+    <style>
+        :root { --bar-h: 64px; --panel-w: 360px; }
+        body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+        #bar {
+            height: var(--bar-h);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #e6e6e6;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+        }
+        #bar strong { margin-right: 6px; }
+        #q { padding: 8px 10px; width: min(420px, 70vw); border: 1px solid #ddd; border-radius: 10px; }
+        button, select {
+            padding: 8px 10px;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover, select:hover { background: #f7f7f7; }
+        .pill {
+            font-size: 12px;
+            padding: 4px 10px;
+            border: 1px solid #eee;
+            border-radius: 999px;
+            background: #fafafa;
+        }
+
+        #wrap {
+            display: grid;
+            grid-template-columns: 1fr var(--panel-w);
+            height: calc(100vh - var(--bar-h));
+        }
+        #cy { width: 100%; height: 100%; }
+        #panel {
+            border-left: 1px solid #e6e6e6;
+            padding: 12px;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+        #panel h3 { margin: 0 0 8px 0; font-size: 14px; }
+        #panel pre {
+            white-space: pre-wrap;
+            word-break: break-word;
+            background: #fafafa;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            padding: 10px;
+            margin: 0;
+            font-size: 12px;
+            line-height: 1.35;
+        }
+
+        @media (max-width: 900px) {
+            :root { --panel-w: 0px; }
+            #wrap { grid-template-columns: 1fr; }
+            #panel { display: none; }
+        }
+    </style>
+</head>
+
+<body>
+<div id="bar">
+    <strong>PDF KG</strong>
+    <span class="pill" id="stats">…</span>
+
+    <input id="q" placeholder="Search node label…" />
+
+    <select id="layoutSel" title="Layout">
+        <option value="auto" selected>Layout: auto (fcose → cose)</option>
+        <option value="fcose">Layout: fcose</option>
+        <option value="cose">Layout: cose</option>
+        <option value="circle">Layout: circle</option>
+        <option value="grid">Layout: grid</option>
+    </select>
+
+    <button id="btnRelayout">Re-layout</button>
+    <button id="btnFit">Fit</button>
+    <button id="btnReset">Reset focus</button>
+    <button id="btnLabels">Toggle labels</button>
+</div>
+
+<div id="wrap">
+    <div id="cy"></div>
+    <div id="panel">
+        <h3>Selection</h3>
+        <pre id="info">Click a node or edge.</pre>
+    </div>
+</div>
+
+<script>
+    const infoEl = document.getElementById("info");
+    const statsEl = document.getElementById("stats");
+
+    let cy;
+    let labelsOn = true;
+
+    function setInfo(obj) {
+        infoEl.textContent = JSON.stringify(obj, null, 2);
+    }
+
+    function updateStats() {
+        statsEl.textContent = `${cy.nodes().length} nodes · ${cy.edges().length} edges`;
+    }
+
+    function hasFcose() {
+        try { return typeof cy.layout({ name: "fcose" }).run === "function"; } 
+        catch { return false; }
+    }
+
+    function layoutOptions(name) {
+        if (name === "fcose") return { name: "fcose", animate: false, quality: "default", nodeRepulsion: 8000, idealEdgeLength: 140, edgeElasticity: 0.25, gravity: 0.2, packComponents: true };
+        if (name === "cose") return { name: "cose", animate: false };
+        if (name === "circle") return { name: "circle", animate: false, padding: 30 };
+        if (name === "grid") return { name: "grid", animate: false, padding: 30 };
+        return { name: "cose", animate: false };
+    }
+
+    function runLayout(selected) {
+        if (!cy) return;
+        let name = selected;
+        if (selected === "auto") name = hasFcose() ? "fcose" : "cose";
+        cy.layout(layoutOptions(name)).run();
+        cy.fit(undefined, 50);
+    }
+
+    function resetFocus() {
+        if (!cy) return;
+        cy.elements().removeClass("faded highlight");
+        setInfo({ hint: "Click a node or edge." });
+    }
+
+    function enableFocusMode() {
+        cy.on("tap", "node", (evt) => {
+            const n = evt.target;
+            const hood = n.closedNeighborhood();
+            cy.elements().addClass("faded");
+            hood.removeClass("faded");
+            cy.nodes().removeClass("highlight");
+            n.addClass("highlight");
+            cy.fit(hood, 80);
+            setInfo({ type: "node", ...n.data() });
+        });
+        cy.on("tap", "edge", (evt) => {
+            const e = evt.target;
+            cy.edges().removeClass("highlight");
+            e.addClass("highlight");
+            setInfo({ type: "edge", ...e.data() });
+        });
+        cy.on("tap", (evt) => { if (evt.target === cy) resetFocus(); });
+    }
+
+    function hookSearch() {
+        const qEl = document.getElementById("q");
+        qEl.addEventListener("input", () => {
+            const q = qEl.value.toLowerCase().trim();
+            cy.nodes().removeClass("highlight");
+            if (!q) return;
+            const hits = cy.nodes().filter(n => (n.data("label") || "").toLowerCase().includes(q));
+            hits.addClass("highlight");
+            if (hits.length) cy.fit(hits, 80);
+        });
+    }
+
+    function hookToolbar() {
+        document.getElementById("btnFit").onclick = () => cy.fit(undefined, 50);
+        document.getElementById("btnReset").onclick = resetFocus;
+        document.getElementById("btnRelayout").onclick = () => { const sel = document.getElementById("layoutSel").value; runLayout(sel); };
+        document.getElementById("btnLabels").onclick = () => {
+            labelsOn = !labelsOn;
+            cy.style().selector("node").style("label", labelsOn ? "data(label)" : "").selector("edge").style("label", labelsOn ? "data(label)" : "").update();
+        };
+    }
+
+    function hashToHue(str) {
+        let h = 0;
+        for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+        return h % 360;
+    }
+
+    async function main() {
+        
+        const res = await fetch("./triples.json");
+        if (!res.ok) throw new Error(`Failed to load triples.json: ${res.status} ${res.statusText}`);
+        const data = await res.json();
+
+        if (!data || !Array.isArray(data.nodes) || !Array.isArray(data.edges)) throw new Error("triples.json must be { nodes: [...], edges: [...] }");
+
+        cy = cytoscape({ container: document.getElementById("cy"), elements: [...data.nodes, ...data.edges],
+            style: [
+                { selector: "node", style: { "label": "data(label)", "font-size": 11, "text-wrap": "wrap", "text-max-width": 140, "text-valign": "center", "text-halign": "center", "width": 26, "height": 26, "border-width": 2 } },
+                { selector: "node[type]", style: { "background-color": (ele) => { const t = ele.data("type") || "Unknown"; const hue = hashToHue(t); return `hsl(${hue}, 55%, 65%)`; }, "border-color": (ele) => { const t = ele.data("type") || "Unknown"; const hue = hashToHue(t); return `hsl(${hue}, 55%, 45%)`; } } },
+                { selector: "edge", style: { "label": "data(label)", "curve-style": "bezier", "target-arrow-shape": "triangle", "arrow-scale": 0.8, "font-size": 9, "text-rotation": "autorotate", "width": 1.5 } },
+                { selector: "edge[label]", style: { "line-color": (ele) => { const l = ele.data("label") || "rel"; const hue = hashToHue(l); return `hsl(${hue}, 40%, 55%)`; }, "target-arrow-color": (ele) => { const l = ele.data("label") || "rel"; const hue = hashToHue(l); return `hsl(${hue}, 40%, 55%)`; } } },
+                { selector: ".highlight", style: { "border-width": 5 } },
+                { selector: ".faded", style: { "opacity": 0.10, "text-opacity": 0.08 } }
+            ]
+        });
+
+        updateStats();
+        enableFocusMode();
+        hookSearch();
+        hookToolbar();
+        runLayout(document.getElementById("layoutSel").value);
+        setInfo({ hint: "Click a node to focus its neighborhood. Click background to reset.", layout: "auto (fcose → cose)" });
+    }
+
+    main().catch(err => { console.error(err); alert(err.message); });
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+Metric,Value
+Scratch Nodes,958
+Mistral Nodes,130
+LLaMA Nodes,114
+Scratch Edges,55
+Mistral Edges,135
+LLaMA Edges,139
+Common Nodes (All 3),22
+Unique Scratch Nodes,932
+Unique Mistral Nodes,31
+Unique LLaMA Nodes,15
+Common Edges (All 3),0
+Unique Scratch Edges,55
+Unique Mistral Edges,54
+Unique LLaMA Edges,58

@@ -1,0 +1,7207 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "4",
+        "label": "4",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cloud_alibaba",
+        "label": "cloud_alibaba",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "oriented",
+        "label": "oriented",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "43",
+        "label": "43",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "service",
+        "label": "service",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "autoregressive",
+        "label": "autoregressive",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "20",
+        "label": "20",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tu_wien",
+        "label": "tu_wien",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "average",
+        "label": "average",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "services",
+        "label": "services",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "google",
+        "label": "google",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "16_08",
+        "label": "16_08",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "24_31_00_2024",
+        "label": "24_31_00_2024",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "lstm",
+        "label": "lstm",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "index",
+        "label": "index",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "07",
+        "label": "07",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sose",
+        "label": "sose",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "machine_learning_ml_deep_learning",
+        "label": "machine_learning_ml_deep_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "lackinger",
+        "label": "lackinger",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "transfer_learning",
+        "label": "transfer_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3315_3958_0",
+        "label": "3315_3958_0",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rbf",
+        "label": "rbf",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "amazon",
+        "label": "amazon",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "arima",
+        "label": "arima",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "9",
+        "label": "9",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "multi_layer_perceptron_mlp_radial_basis_func",
+        "label": "multi_layer_perceptron_mlp_radial_basis_func",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "anna",
+        "label": "anna",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "researchers",
+        "label": "researchers",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "terms",
+        "label": "terms",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "machine",
+        "label": "machine",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "xplore",
+        "label": "xplore",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "amazon_web_services_aws_microsoft",
+        "label": "amazon_web_services_aws_microsoft",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tu_wien_bibliothek_downloaded",
+        "label": "tu_wien_bibliothek_downloaded",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "signifi",
+        "label": "signifi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "10_1109_sose62363_2024",
+        "label": "10_1109_sose62363_2024",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "andrea",
+        "label": "andrea",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "azure",
+        "label": "azure",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bibliothek",
+        "label": "bibliothek",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "long",
+        "label": "long",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "platform",
+        "label": "platform",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "agreements",
+        "label": "agreements",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "layer",
+        "label": "layer",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "evaluation",
+        "label": "evaluation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mlp",
+        "label": "mlp",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ieee_international_conference_service_oriented_system_engineering",
+        "label": "ieee_international_conference_service_oriented_system_engineering",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "level",
+        "label": "level",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "microsoft",
+        "label": "microsoft",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "system",
+        "label": "system",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cpu",
+        "label": "cpu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "engineering",
+        "label": "engineering",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "perceptron",
+        "label": "perceptron",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "dustdar",
+        "label": "dustdar",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "nn",
+        "label": "nn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "international",
+        "label": "international",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "transfer_learning_specifically",
+        "label": "transfer_learning_specifically",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "13_39",
+        "label": "13_39",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "time",
+        "label": "time",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cm",
+        "label": "cm",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "neural_network_nn",
+        "label": "neural_network_nn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "utc_ieee_xplore_restrictions",
+        "label": "utc_ieee_xplore_restrictions",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "12",
+        "label": "12",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "morichetta",
+        "label": "morichetta",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "alibaba",
+        "label": "alibaba",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "recent_years",
+        "label": "recent_years",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ieee",
+        "label": "ieee",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "restrictions",
+        "label": "restrictions",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "neural",
+        "label": "neural",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "trans",
+        "label": "trans",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1",
+        "label": "1",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "30",
+        "label": "30",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "doi",
+        "label": "doi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "func",
+        "label": "func",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "integrated",
+        "label": "integrated",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "transfer",
+        "label": "transfer",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "aws",
+        "label": "aws",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "wien",
+        "label": "wien",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "machine_learning_deep_learning",
+        "label": "machine_learning_deep_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ibm",
+        "label": "ibm",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1https",
+        "label": "1https",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "slas",
+        "label": "slas",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "comprehensive",
+        "label": "comprehensive",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "basis",
+        "label": "basis",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "abstract",
+        "label": "abstract",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "radial",
+        "label": "radial",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "autoregressive_integrated_moving_average",
+        "label": "autoregressive_integrated_moving_average",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "october",
+        "label": "october",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "series",
+        "label": "series",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "6",
+        "label": "6",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "andrea_morichetta_schahram",
+        "label": "andrea_morichetta_schahram",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "conference",
+        "label": "conference",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "predicting",
+        "label": "predicting",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "comprehen",
+        "label": "comprehen",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "learning",
+        "label": "learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gcp",
+        "label": "gcp",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "deep_learning_methods_long_short_term_memory_lstm_transformer",
+        "label": "deep_learning_methods_long_short_term_memory_lstm_transformer",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "moving",
+        "label": "moving",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "network",
+        "label": "network",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "schahram",
+        "label": "schahram",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "abstract_predicting",
+        "label": "abstract_predicting",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "morichetta_et_al",
+        "label": "morichetta_et_al",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "predictions",
+        "label": "predictions",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "deep",
+        "label": "deep",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "short",
+        "label": "short",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "october_24",
+        "label": "october_24",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cloud",
+        "label": "cloud",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "machine_learning_ml",
+        "label": "machine_learning_ml",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2024",
+        "label": "2024",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "term",
+        "label": "term",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "multi",
+        "label": "multi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "introduction",
+        "label": "introduction",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "memory",
+        "label": "memory",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "979",
+        "label": "979",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "10_1109_sose62363_2024_2024",
+        "label": "10_1109_sose62363_2024_2024",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "state",
+        "label": "state",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "deep_learning",
+        "label": "deep_learning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "neural_networks",
+        "label": "neural_networks",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "upper",
+        "label": "upper",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "23",
+        "label": "23",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "un",
+        "label": "un",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "contrarily",
+        "label": "contrarily",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "attention",
+        "label": "attention",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "10_21",
+        "label": "10_21",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2",
+        "label": "2",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "section",
+        "label": "section",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mean_squared_error_mse",
+        "label": "mean_squared_error_mse",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "error",
+        "label": "error",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "work",
+        "label": "work",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "6_21_31",
+        "label": "6_21_31",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "secondly",
+        "label": "secondly",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "lacki28",
+        "label": "lacki28",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mse",
+        "label": "mse",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ood",
+        "label": "ood",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "figure",
+        "label": "figure",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "iii",
+        "label": "iii",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "46",
+        "label": "46",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "workload",
+        "label": "workload",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "section_ii",
+        "label": "section_ii",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "thirdly",
+        "label": "thirdly",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fig",
+        "label": "fig",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "squared",
+        "label": "squared",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "39_46",
+        "label": "39_46",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "17_28",
+        "label": "17_28",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mean",
+        "label": "mean",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2far",
+        "label": "2far",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3_17",
+        "label": "3_17",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fig_1_workload",
+        "label": "fig_1_workload",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "weiss",
+        "label": "weiss",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "authorized",
+        "label": "authorized",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "directional",
+        "label": "directional",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "networks",
+        "label": "networks",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3https",
+        "label": "3https",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "subgraphic",
+        "label": "subgraphic",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "34",
+        "label": "34",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "39_45",
+        "label": "39_45",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mark",
+        "label": "mark",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "a1_a2",
+        "label": "a1_a2",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "solid",
+        "label": "solid",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3",
+        "label": "3",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "al_42",
+        "label": "al_42",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "conversely",
+        "label": "conversely",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "method",
+        "label": "method",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "random",
+        "label": "random",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "nb",
+        "label": "nb",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "29",
+        "label": "29",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ml",
+        "label": "ml",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "dl",
+        "label": "dl",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rf",
+        "label": "rf",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "forest",
+        "label": "forest",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "5",
+        "label": "5",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "non",
+        "label": "non",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "selection",
+        "label": "selection",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fig_2_overview_methodology_motivation",
+        "label": "fig_2_overview_methodology_motivation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "song",
+        "label": "song",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "learn",
+        "label": "learn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "aggregating",
+        "label": "aggregating",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fore",
+        "label": "fore",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hours",
+        "label": "hours",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "data",
+        "label": "data",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "transfer_learn",
+        "label": "transfer_learn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gao",
+        "label": "gao",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rnn",
+        "label": "rnn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "song_et",
+        "label": "song_et",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "24_hours",
+        "label": "24_hours",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "39_25",
+        "label": "39_25",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "70",
+        "label": "70",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "13",
+        "label": "13",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "recurrent_neural_network",
+        "label": "recurrent_neural_network",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "transformer",
+        "label": "transformer",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tour",
+        "label": "tour",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "pre",
+        "label": "pre",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "iii_methodology_prevalent",
+        "label": "iii_methodology_prevalent",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "prevalent",
+        "label": "prevalent",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "benchmark_nb",
+        "label": "benchmark_nb",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "random_forest_rf",
+        "label": "random_forest_rf",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "benchmark",
+        "label": "benchmark",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "n_beats",
+        "label": "n_beats",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "liu_et_al_7",
+        "label": "liu_et_al_7",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "22",
+        "label": "22",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "motivation",
+        "label": "motivation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "35_38",
+        "label": "35_38",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "liu",
+        "label": "liu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "predictive",
+        "label": "predictive",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "10_13_29",
+        "label": "10_13_29",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bootstrap",
+        "label": "bootstrap",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "algorithm",
+        "label": "algorithm",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "36",
+        "label": "36",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "41",
+        "label": "41",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bootstrap_aggregating",
+        "label": "bootstrap_aggregating",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "17",
+        "label": "17",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "27_41",
+        "label": "27_41",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "11_28",
+        "label": "11_28",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "singh",
+        "label": "singh",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "al_13",
+        "label": "al_13",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "beats",
+        "label": "beats",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "recurrent",
+        "label": "recurrent",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "algo",
+        "label": "algo",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "xplore_restrictions",
+        "label": "xplore_restrictions",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1037",
+        "label": "1037",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "machine_time",
+        "label": "machine_time",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "12_500",
+        "label": "12_500",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "savitzky",
+        "label": "savitzky",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jobs",
+        "label": "jobs",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "672",
+        "label": "672",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2011_2",
+        "label": "2011_2",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2016",
+        "label": "2016",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "0",
+        "label": "0",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "4_task",
+        "label": "4_task",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table",
+        "label": "table",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "5_minute",
+        "label": "5_minute",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3793",
+        "label": "3793",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "number",
+        "label": "number",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "united_states",
+        "label": "united_states",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "194",
+        "label": "194",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "45",
+        "label": "45",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "utc_ieee",
+        "label": "utc_ieee",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "job",
+        "label": "job",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "golay",
+        "label": "golay",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1_hour",
+        "label": "1_hour",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "33",
+        "label": "33",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "google_scholar",
+        "label": "google_scholar",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "states",
+        "label": "states",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "edt",
+        "label": "edt",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "21",
+        "label": "21",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "imputation",
+        "label": "imputation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "afterward",
+        "label": "afterward",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fig_3",
+        "label": "fig_3",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "215",
+        "label": "215",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "7",
+        "label": "7",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "linux",
+        "label": "linux",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2261",
+        "label": "2261",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sunday",
+        "label": "sunday",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "25",
+        "label": "25",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3432",
+        "label": "3432",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "646",
+        "label": "646",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "32",
+        "label": "32",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fig_4_canonical",
+        "label": "fig_4_canonical",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "4032",
+        "label": "4032",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "savitzky_golay",
+        "label": "savitzky_golay",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "united",
+        "label": "united",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "task",
+        "label": "task",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "dataset",
+        "label": "dataset",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "delete",
+        "label": "delete",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "central",
+        "label": "central",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "29_days",
+        "label": "29_days",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "approximately_4_weeks",
+        "label": "approximately_4_weeks",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "central_processing_unit",
+        "label": "central_processing_unit",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "scholar",
+        "label": "scholar",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sunday_1_2011",
+        "label": "sunday_1_2011",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "april",
+        "label": "april",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3_10",
+        "label": "3_10",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "april_22_2024",
+        "label": "april_22_2024",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "processing",
+        "label": "processing",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "19_00_edt",
+        "label": "19_00_edt",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "unit",
+        "label": "unit",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "14",
+        "label": "14",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "canonical",
+        "label": "canonical",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "eastern",
+        "label": "eastern",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1985957305",
+        "label": "1985957305",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "15",
+        "label": "15",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "16",
+        "label": "16",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "0_11",
+        "label": "0_11",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "week",
+        "label": "week",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "c_selection_dataset",
+        "label": "c_selection_dataset",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ignore_delete_imputation",
+        "label": "ignore_delete_imputation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "weeks",
+        "label": "weeks",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "status",
+        "label": "status",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2_6_29",
+        "label": "2_6_29",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "533",
+        "label": "533",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "257",
+        "label": "257",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "feature",
+        "label": "feature",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "24_32_64",
+        "label": "24_32_64",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mse_mean_absolute_error_mae_root_mean_squared_error_rmse",
+        "label": "mse_mean_absolute_error_mae_root_mean_squared_error_rmse",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_iii_hyperparameters",
+        "label": "table_iii_hyperparameters",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3b",
+        "label": "3b",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "maxima",
+        "label": "maxima",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "18",
+        "label": "18",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rectified_linear_unit_relu",
+        "label": "rectified_linear_unit_relu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "max",
+        "label": "max",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rmse",
+        "label": "rmse",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "validation",
+        "label": "validation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_iv_hyperparameters_transformer",
+        "label": "table_iv_hyperparameters_transformer",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "relu",
+        "label": "relu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "100",
+        "label": "100",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "6_table_ii",
+        "label": "6_table_ii",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "design",
+        "label": "design",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "f_experimental_design",
+        "label": "f_experimental_design",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "looking",
+        "label": "looking",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hyperparameter",
+        "label": "hyperparameter",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "39",
+        "label": "39",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fig_6_canonical",
+        "label": "fig_6_canonical",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "19",
+        "label": "19",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "30_39",
+        "label": "30_39",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mae",
+        "label": "mae",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "comparatively",
+        "label": "comparatively",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_ii_maximum",
+        "label": "table_ii_maximum",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "5_table_ii",
+        "label": "5_table_ii",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "10",
+        "label": "10",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "00001",
+        "label": "00001",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "maximum",
+        "label": "maximum",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "500",
+        "label": "500",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "44_46",
+        "label": "44_46",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "0_001",
+        "label": "0_001",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "test",
+        "label": "test",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sys",
+        "label": "sys",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_iii",
+        "label": "table_iii",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hyperparameters",
+        "label": "hyperparameters",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "experimental",
+        "label": "experimental",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "max_cpu",
+        "label": "max_cpu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "root",
+        "label": "root",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "absolute",
+        "label": "absolute",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "box",
+        "label": "box",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "train",
+        "label": "train",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "6_24",
+        "label": "6_24",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_ii",
+        "label": "table_ii",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fig_5",
+        "label": "fig_5",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1_0",
+        "label": "1_0",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "245_train",
+        "label": "245_train",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "value",
+        "label": "value",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fig_7_experimental",
+        "label": "fig_7_experimental",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "200",
+        "label": "200",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "8",
+        "label": "8",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "0_1",
+        "label": "0_1",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "linear",
+        "label": "linear",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "32_64",
+        "label": "32_64",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "222",
+        "label": "222",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rectified",
+        "label": "rectified",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "4a_4b",
+        "label": "4a_4b",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "metrics",
+        "label": "metrics",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "0_01",
+        "label": "0_01",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3a",
+        "label": "3a",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hyperparameter_value",
+        "label": "hyperparameter_value",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "100_200_300",
+        "label": "100_200_300",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "viii",
+        "label": "viii",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "nvidia",
+        "label": "nvidia",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "60",
+        "label": "60",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "input",
+        "label": "input",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mse_table",
+        "label": "mse_table",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "algorithm_1",
+        "label": "algorithm_1",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "deviation",
+        "label": "deviation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "amd",
+        "label": "amd",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "standard",
+        "label": "standard",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "0_2",
+        "label": "0_2",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mse_nb",
+        "label": "mse_nb",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1356",
+        "label": "1356",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "g_hardware_setup",
+        "label": "g_hardware_setup",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "geforce",
+        "label": "geforce",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ryzen",
+        "label": "ryzen",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_v_mean",
+        "label": "table_v_mean",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "vii",
+        "label": "vii",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_vii_average_mse",
+        "label": "table_vii_average_mse",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cpu_table",
+        "label": "cpu_table",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "30_minutes",
+        "label": "30_minutes",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "0_0",
+        "label": "0_0",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "core_processor",
+        "label": "core_processor",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "pytorch",
+        "label": "pytorch",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "epoch",
+        "label": "epoch",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "5083_3979",
+        "label": "5083_3979",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "5950x",
+        "label": "5950x",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_vi_average_mse",
+        "label": "table_vi_average_mse",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "list",
+        "label": "list",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fig_8_multistep",
+        "label": "fig_8_multistep",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "comparison",
+        "label": "comparison",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "0_0_0_1_0_1_arima_0_1_0_1_0_2_rf_0_1_0_1_0_2_lstm_0_0_0_1_0_1_trans_0_1_0_1_0_2_4_ts_5_ts_6_ts_method_x_x_x_",
+        "label": "0_0_0_1_0_1_arima_0_1_0_1_0_2_rf_0_1_0_1_0_2_lstm_0_0_0_1_0_1_trans_0_1_0_1_0_2_4_ts_5_ts_6_ts_method_x_x_x_",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cpu_gpu",
+        "label": "cpu_gpu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "setup",
+        "label": "setup",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "24576",
+        "label": "24576",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "core",
+        "label": "core",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "452",
+        "label": "452",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "processor",
+        "label": "processor",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gpu",
+        "label": "gpu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rtx",
+        "label": "rtx",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "pytorch_dataloader",
+        "label": "pytorch_dataloader",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "multistep",
+        "label": "multistep",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3090",
+        "label": "3090",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "training",
+        "label": "training",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "optimizer",
+        "label": "optimizer",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hardware",
+        "label": "hardware",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "dataloader",
+        "label": "dataloader",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "model",
+        "label": "model",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_vi",
+        "label": "table_vi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "737",
+        "label": "737",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ahn",
+        "label": "ahn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zhou",
+        "label": "zhou",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "0_3_0_2_0_2",
+        "label": "0_3_0_2_0_2",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "intend",
+        "label": "intend",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "yuan",
+        "label": "yuan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bonde",
+        "label": "bonde",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tarek",
+        "label": "tarek",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hyun_ahn_kyunghee_sun",
+        "label": "hyun_ahn_kyunghee_sun",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "computing",
+        "label": "computing",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jiao",
+        "label": "jiao",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2021",
+        "label": "2021",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "min",
+        "label": "min",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "junna_zhang",
+        "label": "junna_zhang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "compsac",
+        "label": "compsac",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "albert_y_zomaya",
+        "label": "albert_y_zomaya",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sun",
+        "label": "sun",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zheyi",
+        "label": "zheyi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "alexandre_muzio_mark_russinovich",
+        "label": "alexandre_muzio_mark_russinovich",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "entropy",
+        "label": "entropy",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "779_09",
+        "label": "779_09",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rodrigo",
+        "label": "rodrigo",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "union",
+        "label": "union",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "continua",
+        "label": "continua",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "foundation",
+        "label": "foundation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ieee_transactions_parallel_distributed_systems",
+        "label": "ieee_transactions_parallel_distributed_systems",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "haitao",
+        "label": "haitao",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "richard_kneller",
+        "label": "richard_kneller",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "haitao_yuan",
+        "label": "haitao_yuan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "wang",
+        "label": "wang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "qos",
+        "label": "qos",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "timmis",
+        "label": "timmis",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_ix",
+        "label": "table_ix",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "proceedings_26th",
+        "label": "proceedings_26th",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2017",
+        "label": "2017",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "grid",
+        "label": "grid",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "timothy_destefano",
+        "label": "timothy_destefano",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "eli",
+        "label": "eli",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "destefano",
+        "label": "destefano",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rajiv",
+        "label": "rajiv",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "russinovich",
+        "label": "russinovich",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2022_3",
+        "label": "2022_3",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rajiv_ranjan",
+        "label": "rajiv_ranjan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ranjan",
+        "label": "ranjan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "alexandre",
+        "label": "alexandre",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "timothy",
+        "label": "timothy",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mustafa",
+        "label": "mustafa",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "junna",
+        "label": "junna",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mustafa_m_al_sayed_workload",
+        "label": "mustafa_m_al_sayed_workload",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "european",
+        "label": "european",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jingxiong",
+        "label": "jingxiong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sayed",
+        "label": "sayed",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "marbach",
+        "label": "marbach",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "annual",
+        "label": "annual",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "load",
+        "label": "load",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ricardo",
+        "label": "ricardo",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "153_167",
+        "label": "153_167",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kyunghee",
+        "label": "kyunghee",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "eli_cortez_anand_bonde",
+        "label": "eli_cortez_anand_bonde",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jonathan_timmis",
+        "label": "jonathan_timmis",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "der",
+        "label": "der",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "muzio",
+        "label": "muzio",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "101079214",
+        "label": "101079214",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "principles",
+        "label": "principles",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bianchini",
+        "label": "bianchini",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "chen",
+        "label": "chen",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kwanghoon_kim_comparison",
+        "label": "kwanghoon_kim_comparison",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "shuang_li",
+        "label": "shuang_li",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "distributed",
+        "label": "distributed",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "24_1770_12",
+        "label": "24_1770_12",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "weili_li",
+        "label": "weili_li",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fur",
+        "label": "fur",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "materials",
+        "label": "materials",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cao",
+        "label": "cao",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "comput",
+        "label": "comput",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "buyya",
+        "label": "buyya",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "geyong",
+        "label": "geyong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "table_ix_nb_arima",
+        "label": "table_ix_nb_arima",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "europe",
+        "label": "europe",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "polaris_29_linux_foundation_centaurus",
+        "label": "polaris_29_linux_foundation_centaurus",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rodrigo_n_calheiros_enayat_masoumi",
+        "label": "rodrigo_n_calheiros_enayat_masoumi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rui",
+        "label": "rui",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jia",
+        "label": "jia",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "resource",
+        "label": "resource",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ghazawi",
+        "label": "ghazawi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "0_2_0_2_0_3_lstm_0_1_0_2_0_2",
+        "label": "0_2_0_2_0_3_lstm_0_1_0_2_0_2",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "trent",
+        "label": "trent",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2018",
+        "label": "2018",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "centaurus",
+        "label": "centaurus",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "neurocomputing",
+        "label": "neurocomputing",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2022",
+        "label": "2022",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zhaoyang",
+        "label": "zhaoyang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "parallel",
+        "label": "parallel",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kwanghoon",
+        "label": "kwanghoon",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cortez",
+        "label": "cortez",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "j_grid_comput",
+        "label": "j_grid_comput",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zheyi_chen_jia_hu",
+        "label": "zheyi_chen_jia_hu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "richard",
+        "label": "richard",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rajkumar",
+        "label": "rajkumar",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "marcus",
+        "label": "marcus",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "101135576",
+        "label": "101135576",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "weili",
+        "label": "weili",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "european_union",
+        "label": "european_union",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mengchu_zhou_integrated",
+        "label": "mengchu_zhou_integrated",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "horizon_europe",
+        "label": "horizon_europe",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zomaya",
+        "label": "zomaya",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "31",
+        "label": "31",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jonathan",
+        "label": "jonathan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "chunhong",
+        "label": "chunhong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "xiaoguang",
+        "label": "xiaoguang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jing",
+        "label": "jing",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "anand",
+        "label": "anand",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mengchu",
+        "label": "mengchu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "20_2",
+        "label": "20_2",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "grant",
+        "label": "grant",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "35_48",
+        "label": "35_48",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "systems",
+        "label": "systems",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "47",
+        "label": "47",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "polaris",
+        "label": "polaris",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "728",
+        "label": "728",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "xiaoguang_liu_load",
+        "label": "xiaoguang_liu_load",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "grant_agreement",
+        "label": "grant_agreement",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "agreement",
+        "label": "agreement",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jie",
+        "label": "jie",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "calheiros",
+        "label": "calheiros",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zhang",
+        "label": "zhang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kneller",
+        "label": "kneller",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "masoumi",
+        "label": "masoumi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3_4",
+        "label": "3_4",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "287",
+        "label": "287",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "comparing",
+        "label": "comparing",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "liu_chunhong",
+        "label": "liu_chunhong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jingxiong_wang",
+        "label": "jingxiong_wang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "albert",
+        "label": "albert",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jun",
+        "label": "jun",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kim",
+        "label": "kim",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "understanding",
+        "label": "understanding",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "transactions",
+        "label": "transactions",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fontoura_ricardo_bianchini_resource",
+        "label": "fontoura_ricardo_bianchini_resource",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "conclusion",
+        "label": "conclusion",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hyun",
+        "label": "hyun",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "shuang",
+        "label": "shuang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gang",
+        "label": "gang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "fontoura",
+        "label": "fontoura",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "seconds",
+        "label": "seconds",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "computers_materials_continua",
+        "label": "computers_materials_continua",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "operating",
+        "label": "operating",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "enayat",
+        "label": "enayat",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "horizon",
+        "label": "horizon",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "151",
+        "label": "151",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zhaobo_zhang_demystifying",
+        "label": "zhaobo_zhang_demystifying",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "visentin",
+        "label": "visentin",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "violin",
+        "label": "violin",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "940",
+        "label": "940",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "142",
+        "label": "142",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "37",
+        "label": "37",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "35",
+        "label": "35",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "economics",
+        "label": "economics",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "chandra",
+        "label": "chandra",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "17_4_2335",
+        "label": "17_4_2335",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "brown",
+        "label": "brown",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jeon_young",
+        "label": "jeon_young",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "37th",
+        "label": "37th",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cnn",
+        "label": "cnn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bhalaji_natarajan_cloud",
+        "label": "bhalaji_natarajan_cloud",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jerry_l",
+        "label": "jerry_l",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rossi",
+        "label": "rossi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ashutosh",
+        "label": "ashutosh",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "184",
+        "label": "184",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2017_28",
+        "label": "2017_28",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "reiss",
+        "label": "reiss",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "philipp",
+        "label": "philipp",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sarikaa_s_niranjana_s_sri_vishnu_deepika_k_time",
+        "label": "sarikaa_s_niranjana_s_sri_vishnu_deepika_k_time",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "informatics",
+        "label": "informatics",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gupta",
+        "label": "gupta",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hellerstein",
+        "label": "hellerstein",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bingwei",
+        "label": "bingwei",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2023_36",
+        "label": "2023_36",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "soft",
+        "label": "soft",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hisham",
+        "label": "hisham",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "new",
+        "label": "new",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "singh_prajit_sengupta_anant",
+        "label": "singh_prajit_sengupta_anant",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "spyros",
+        "label": "spyros",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "usa",
+        "label": "usa",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "vctor",
+        "label": "vctor",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "yinan",
+        "label": "yinan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "qiu",
+        "label": "qiu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "xiong",
+        "label": "xiong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "azure_azurepublicdataset",
+        "label": "azure_azurepublicdataset",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "irfan_pratama_adhistya",
+        "label": "irfan_pratama_adhistya",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "lin",
+        "label": "lin",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "shiwei",
+        "label": "shiwei",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cluster",
+        "label": "cluster",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "16_github_azure",
+        "label": "16_github_azure",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "handelman",
+        "label": "handelman",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "raith",
+        "label": "raith",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "association",
+        "label": "association",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "surjit",
+        "label": "surjit",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "10_2023_21",
+        "label": "10_2023_21",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "maxim_gao_ziliang_zong_evaluating",
+        "label": "maxim_gao_ziliang_zong_evaluating",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gurjot",
+        "label": "gurjot",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "innovation",
+        "label": "innovation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "technology",
+        "label": "technology",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zhiyuan",
+        "label": "zhiyuan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "price",
+        "label": "price",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "icdcn",
+        "label": "icdcn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "haiying",
+        "label": "haiying",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ardiyanto",
+        "label": "ardiyanto",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "https_github",
+        "label": "https_github",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "pusztai",
+        "label": "pusztai",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "american",
+        "label": "american",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "statistics",
+        "label": "statistics",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "guy",
+        "label": "guy",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "networking",
+        "label": "networking",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gener",
+        "label": "gener",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "permanasari",
+        "label": "permanasari",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "workshops",
+        "label": "workshops",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zhe",
+        "label": "zhe",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jeon",
+        "label": "jeon",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "icitsi",
+        "label": "icitsi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "razavi",
+        "label": "razavi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ning",
+        "label": "ning",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1_6",
+        "label": "1_6",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "evaluating",
+        "label": "evaluating",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jielong",
+        "label": "jielong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "statistician",
+        "label": "statistician",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "yashwant_singh_patel",
+        "label": "yashwant_singh_patel",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bhalaji",
+        "label": "bhalaji",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "future_gener",
+        "label": "future_gener",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "vij",
+        "label": "vij",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ying",
+        "label": "ying",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kumar_singh",
+        "label": "kumar_singh",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sengupta",
+        "label": "sengupta",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2019_12",
+        "label": "2019_12",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2022_17",
+        "label": "2022_17",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "renewable",
+        "label": "renewable",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "igi",
+        "label": "igi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "repe",
+        "label": "repe",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "maxim",
+        "label": "maxim",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "stefan",
+        "label": "stefan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "thomas_pusztai",
+        "label": "thomas_pusztai",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ronil",
+        "label": "ronil",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1_20",
+        "label": "1_20",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "journal",
+        "label": "journal",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "30332290",
+        "label": "30332290",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "assimakopoulos",
+        "label": "assimakopoulos",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "huang",
+        "label": "huang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "andrea_rossi_andrea",
+        "label": "andrea_rossi_andrea",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "github",
+        "label": "github",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "natarajan",
+        "label": "natarajan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "6th",
+        "label": "6th",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kuan_kok_ronil_v",
+        "label": "kuan_kok_ronil_v",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "clusterdata",
+        "label": "clusterdata",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kuan",
+        "label": "kuan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "icccn",
+        "label": "icccn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "amir",
+        "label": "amir",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "asadi",
+        "label": "asadi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "schema",
+        "label": "schema",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sik",
+        "label": "sik",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "brooks",
+        "label": "brooks",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2nd",
+        "label": "2nd",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "26",
+        "label": "26",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "392",
+        "label": "392",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "paper",
+        "label": "paper",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "blob",
+        "label": "blob",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "evangelos",
+        "label": "evangelos",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "pratama",
+        "label": "pratama",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "symposium",
+        "label": "symposium",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sciences",
+        "label": "sciences",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "makridakis",
+        "label": "makridakis",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "deepak",
+        "label": "deepak",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "proceedings_24th_international_conference_distributed_computing_networking",
+        "label": "proceedings_24th_international_conference_distributed_computing_networking",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "lee_hamed",
+        "label": "lee_hamed",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "infocom_wkshps",
+        "label": "infocom_wkshps",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "thomas",
+        "label": "thomas",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "review",
+        "label": "review",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "indrayani",
+        "label": "indrayani",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hamed",
+        "label": "hamed",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "steven",
+        "label": "steven",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mehta",
+        "label": "mehta",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hisham_kholidy",
+        "label": "hisham_kholidy",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "yashwant",
+        "label": "yashwant",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "communication",
+        "label": "communication",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rini",
+        "label": "rini",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2012",
+        "label": "2012",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bioinformatics",
+        "label": "bioinformatics",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "future",
+        "label": "future",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "huang_mark_brooks_michael",
+        "label": "huang_mark_brooks_michael",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "slos",
+        "label": "slos",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "michael",
+        "label": "michael",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "qinru",
+        "label": "qinru",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "yanzhi",
+        "label": "yanzhi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "john",
+        "label": "john",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "spyros_makridakis_evangelos_spiliotis",
+        "label": "spyros_makridakis_evangelos_spiliotis",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hintze",
+        "label": "hintze",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "vishnu",
+        "label": "vishnu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "clustering",
+        "label": "clustering",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "aspects",
+        "label": "aspects",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "communications",
+        "label": "communications",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "automation",
+        "label": "automation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "self",
+        "label": "self",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kumar_ashutosh",
+        "label": "kumar_ashutosh",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "nelson",
+        "label": "nelson",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "shaifu_gupta_d_dileep_timothy_gonsalves",
+        "label": "shaifu_gupta_d_dileep_timothy_gonsalves",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jielong_xu_zhiyuan_xu_sheng_lin_qinru_qiu_jian_tang_yanzhi_wang",
+        "label": "jielong_xu_zhiyuan_xu_sheng_lin_qinru_qiu_jian_tang_yanzhi_wang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "icdcs",
+        "label": "icdcs",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "inc",
+        "label": "inc",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jerry",
+        "label": "jerry",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "hong",
+        "label": "hong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "information_sciences",
+        "label": "information_sciences",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ray",
+        "label": "ray",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "nelson_violin",
+        "label": "nelson_violin",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "john_wilkes",
+        "label": "john_wilkes",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "singh_patel_ensemble",
+        "label": "singh_patel_ensemble",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "dileep",
+        "label": "dileep",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "peering",
+        "label": "peering",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "forecasting",
+        "label": "forecasting",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "wilkes",
+        "label": "wilkes",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "brad",
+        "label": "brad",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tang",
+        "label": "tang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "patel",
+        "label": "patel",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "review_economics_statistics",
+        "label": "review_economics_statistics",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "peter",
+        "label": "peter",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kholidy",
+        "label": "kholidy",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "382",
+        "label": "382",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "international_symposium_algorithmic_aspects",
+        "label": "international_symposium_algorithmic_aspects",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "computer",
+        "label": "computer",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "white",
+        "label": "white",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "matthew_scotch",
+        "label": "matthew_scotch",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jian",
+        "label": "jian",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1_9",
+        "label": "1_9",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sri",
+        "label": "sri",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2019",
+        "label": "2019",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "natalie",
+        "label": "natalie",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ananya",
+        "label": "ananya",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "roentgenology",
+        "label": "roentgenology",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "computing_nov_2022_11",
+        "label": "computing_nov_2022_11",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "power",
+        "label": "power",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "azurepublicdataset",
+        "label": "azurepublicdataset",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gonsalves",
+        "label": "gonsalves",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "wkshps",
+        "label": "wkshps",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "computer_systems",
+        "label": "computer_systems",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "stefan_nastic",
+        "label": "stefan_nastic",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sarikaa",
+        "label": "sarikaa",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "vassilios",
+        "label": "vassilios",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "competi",
+        "label": "competi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zhaobo",
+        "label": "zhaobo",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "paradigm",
+        "label": "paradigm",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "machinery",
+        "label": "machinery",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "byeonghui",
+        "label": "byeonghui",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "energy",
+        "label": "energy",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2020",
+        "label": "2020",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "communi",
+        "label": "communi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "anant",
+        "label": "anant",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sheng",
+        "label": "sheng",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "young",
+        "label": "young",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "115_132_springer",
+        "label": "115_132_springer",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "everman",
+        "label": "everman",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "charles",
+        "label": "charles",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "pujol",
+        "label": "pujol",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "american_journal_roentgenology",
+        "label": "american_journal_roentgenology",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "shen",
+        "label": "shen",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "lee",
+        "label": "lee",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "management",
+        "label": "management",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "36_1",
+        "label": "36_1",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "372",
+        "label": "372",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "joseph",
+        "label": "joseph",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sustainable_computing_informatics_systems",
+        "label": "sustainable_computing_informatics_systems",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "google_cluster_data",
+        "label": "google_cluster_data",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "pmid",
+        "label": "pmid",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jeong_proactive",
+        "label": "jeong_proactive",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zong",
+        "label": "zong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "deepika",
+        "label": "deepika",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jatin_bedi_mag",
+        "label": "jatin_bedi_mag",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "black",
+        "label": "black",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jatin",
+        "label": "jatin",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "computer_communi",
+        "label": "computer_communi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "michael_j_kane_natalie",
+        "label": "michael_j_kane_natalie",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "scotch",
+        "label": "scotch",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "quantitative",
+        "label": "quantitative",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "new_york",
+        "label": "new_york",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "devi",
+        "label": "devi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kane",
+        "label": "kane",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kaim",
+        "label": "kaim",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bmc",
+        "label": "bmc",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "casamayor_pujol",
+        "label": "casamayor_pujol",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kumar",
+        "label": "kumar",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "charles_reiss",
+        "label": "charles_reiss",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "outbreaks",
+        "label": "outbreaks",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "blstm",
+        "label": "blstm",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "15_1_1_9",
+        "label": "15_1_1_9",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ning_liu_zhe_li",
+        "label": "ning_liu_zhe_li",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2023",
+        "label": "2023",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jatin_bedi",
+        "label": "jatin_bedi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "nov",
+        "label": "nov",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cloud_computing",
+        "label": "cloud_computing",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "international_conference_computer_communications_networks",
+        "label": "international_conference_computer_communications_networks",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "74",
+        "label": "74",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ziliang",
+        "label": "ziliang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "andrea_morichetta",
+        "label": "andrea_morichetta",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "shaifu",
+        "label": "shaifu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jiechao",
+        "label": "jiechao",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "scinet",
+        "label": "scinet",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kok",
+        "label": "kok",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jiechao_gao_haoyu_wang_haiying_shen_machine",
+        "label": "jiechao_gao_haoyu_wang_haiying_shen_machine",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "clusterdata2011_2",
+        "label": "clusterdata2011_2",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "online",
+        "label": "online",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "100708",
+        "label": "100708",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "spiliotis",
+        "label": "spiliotis",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "24",
+        "label": "24",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jitendra",
+        "label": "jitendra",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "prestwich",
+        "label": "prestwich",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jueun",
+        "label": "jueun",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "proactive",
+        "label": "proactive",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "valli",
+        "label": "valli",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "erna",
+        "label": "erna",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ensemble",
+        "label": "ensemble",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "366",
+        "label": "366",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bingwei_liu",
+        "label": "bingwei_liu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cluster_computing",
+        "label": "cluster_computing",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "niranjana",
+        "label": "niranjana",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "international_journal_forecasting",
+        "label": "international_journal_forecasting",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "matthew",
+        "label": "matthew",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bedi",
+        "label": "bedi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "38",
+        "label": "38",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "lalitha",
+        "label": "lalitha",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "haoyu",
+        "label": "haoyu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "information",
+        "label": "information",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kenneth",
+        "label": "kenneth",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "york",
+        "label": "york",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "guy_s_handelman",
+        "label": "guy_s_handelman",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ying_xiong",
+        "label": "ying_xiong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jeong",
+        "label": "jeong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "infocom",
+        "label": "infocom",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "105",
+        "label": "105",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "16th",
+        "label": "16th",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2016_international_conference_information_technology_systems_innovation",
+        "label": "2016_international_conference_information_technology_systems_innovation",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "joseph_l_hellerstein",
+        "label": "joseph_l_hellerstein",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "rabinowitz",
+        "label": "rabinowitz",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "algorithmic",
+        "label": "algorithmic",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "clusterdata2011",
+        "label": "clusterdata2011",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "1998",
+        "label": "1998",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "935",
+        "label": "935",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "342",
+        "label": "342",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "nastic",
+        "label": "nastic",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "09_2021_31",
+        "label": "09_2021_31",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "casamayor",
+        "label": "casamayor",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "steven_prestwich",
+        "label": "steven_prestwich",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "irfan",
+        "label": "irfan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "61",
+        "label": "61",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "peter_rabinowitz_comparison",
+        "label": "peter_rabinowitz_comparison",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "prajit",
+        "label": "prajit",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "43_2019",
+        "label": "43_2019",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "mag",
+        "label": "mag",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "543",
+        "label": "543",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "byeonghui_jeong",
+        "label": "byeonghui_jeong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "google_inc_white_paper",
+        "label": "google_inc_white_paper",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "adhistya",
+        "label": "adhistya",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "yinan_lin_yu_chen_quantitative",
+        "label": "yinan_lin_yu_chen_quantitative",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ieee_transactions_network_service_management",
+        "label": "ieee_transactions_network_service_management",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "roberto_riggio_centralized",
+        "label": "roberto_riggio_centralized",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "qinghua_lu_workload",
+        "label": "qinghua_lu_workload",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "yang",
+        "label": "yang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "riggio",
+        "label": "riggio",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "internet",
+        "label": "internet",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "chengzhong",
+        "label": "chengzhong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "esdnn",
+        "label": "esdnn",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "karl",
+        "label": "karl",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "peng_zhao_yao_yu",
+        "label": "peng_zhao_yao_yu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "taghi",
+        "label": "taghi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "dec",
+        "label": "dec",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "faming",
+        "label": "faming",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "centralized",
+        "label": "centralized",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "acm",
+        "label": "acm",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "yu_zhou",
+        "label": "yu_zhou",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zhao",
+        "label": "zhao",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "xianglei",
+        "label": "xianglei",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "subramanya",
+        "label": "subramanya",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "karl_weiss",
+        "label": "karl_weiss",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "iiki",
+        "label": "iiki",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "binbin_song_yao_yu_yu",
+        "label": "binbin_song_yao_yu_yu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "kin",
+        "label": "kin",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "chenghao",
+        "label": "chenghao",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "roberto",
+        "label": "roberto",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "binbin",
+        "label": "binbin",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "yao",
+        "label": "yao",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sidan_du",
+        "label": "sidan_du",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "supercomput",
+        "label": "supercomput",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "78",
+        "label": "78",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gill",
+        "label": "gill",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gmdh",
+        "label": "gmdh",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "104",
+        "label": "104",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tiffany",
+        "label": "tiffany",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "qiangpeng_yang",
+        "label": "qiangpeng_yang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "gong",
+        "label": "gong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "bong",
+        "label": "bong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "xing",
+        "label": "xing",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2015",
+        "label": "2015",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "jiang",
+        "label": "jiang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "host",
+        "label": "host",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sidan",
+        "label": "sidan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "2014",
+        "label": "2014",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "qinghua",
+        "label": "qinghua",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ye_chengzhong",
+        "label": "ye_chengzhong",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "qiangpeng_yang_yu_zhou_yao_yu",
+        "label": "qiangpeng_yang_yu_zhou_yao_yu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tejas",
+        "label": "tejas",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "chenghao_song_huaming",
+        "label": "chenghao_song_huaming",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sukhpal",
+        "label": "sukhpal",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "identification",
+        "label": "identification",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "technol",
+        "label": "technol",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "qiangpeng",
+        "label": "qiangpeng",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "xu_esdnn_deep",
+        "label": "xu_esdnn_deep",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "peng",
+        "label": "peng",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "xianglei_xing_sidan_du_multi",
+        "label": "xianglei_xing_sidan_du_multi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "knowledge",
+        "label": "knowledge",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "22_3",
+        "label": "22_3",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "singh_gill",
+        "label": "singh_gill",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sion",
+        "label": "sion",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tuor",
+        "label": "tuor",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "zhou_ziqiang",
+        "label": "zhou_ziqiang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "3_1_40",
+        "label": "3_1_40",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "khoshgoftaar",
+        "label": "khoshgoftaar",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ieee_39th_international_conference_distributed_computing_systems",
+        "label": "ieee_39th_international_conference_distributed_computing_systems",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "109_2016_authorized",
+        "label": "109_2016_authorized",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "133_143",
+        "label": "133_143",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ziqiang",
+        "label": "ziqiang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "39th",
+        "label": "39th",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "sidan_du_host",
+        "label": "sidan_du_host",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "minxian",
+        "label": "minxian",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "wang_kin_k_leung_bong_jun_ko",
+        "label": "wang_kin_k_leung_bong_jun_ko",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "architecture",
+        "label": "architecture",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "huaming",
+        "label": "huaming",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "wu_sukhpal",
+        "label": "wu_sukhpal",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "psr",
+        "label": "psr",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "dehai",
+        "label": "dehai",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "shiqiang",
+        "label": "shiqiang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "weishan",
+        "label": "weishan",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "dingding",
+        "label": "dingding",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "weishan_zhang_bo_li",
+        "label": "weishan_zhang_bo_li",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "leung",
+        "label": "leung",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "42",
+        "label": "42",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "things",
+        "label": "things",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "tiffany_tuor_shiqiang",
+        "label": "tiffany_tuor_shiqiang",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "chenglei",
+        "label": "chenglei",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "68_3_1402_1417",
+        "label": "68_3_1402_1417",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "downloaded",
+        "label": "downloaded",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "58",
+        "label": "58",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "july",
+        "label": "july",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "universitaetsbibliothek",
+        "label": "universitaetsbibliothek",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "july_05",
+        "label": "july_05",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "universitaetsb",
+        "label": "universitaetsb",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ibliothek_der",
+        "label": "ibliothek_der",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "ibliothek",
+        "label": "ibliothek",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "symposi",
+        "label": "symposi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "proceedings_26th_symposi",
+        "label": "proceedings_26th_symposi",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "compu",
+        "label": "compu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "cluster_compu",
+        "label": "cluster_compu",
+        "type": "Entity"
+      }
+    },
+    {
+      "data": {
+        "id": "operating_systems",
+        "label": "operating_systems",
+        "type": "Entity"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "e0",
+        "source": "cloud",
+        "target": "lackinger",
+        "label": "workload",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e1",
+        "source": "cloud",
+        "target": "anna",
+        "label": "workload",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e2",
+        "source": "subgraphic",
+        "target": "method",
+        "label": "illustrate",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e3",
+        "source": "arima",
+        "target": "method",
+        "label": "bench",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e4",
+        "source": "arima",
+        "target": "mark",
+        "label": "bench",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e5",
+        "source": "singh",
+        "target": "bibliothek",
+        "label": "combine",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e6",
+        "source": "singh",
+        "target": "wien",
+        "label": "combine",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e7",
+        "source": "restrictions",
+        "target": "data",
+        "label": "apply",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e8",
+        "source": "rf",
+        "target": "aggregating",
+        "label": "utilize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e9",
+        "source": "rf",
+        "target": "bootstrap",
+        "label": "utilize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e10",
+        "source": "rf",
+        "target": "arima",
+        "label": "outperform",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e11",
+        "source": "machine",
+        "target": "table",
+        "label": "attribute",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e12",
+        "source": "table",
+        "target": "jobs",
+        "label": "take",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e13",
+        "source": "restrictions",
+        "target": "table",
+        "label": "apply",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e14",
+        "source": "weeks",
+        "target": "jobs",
+        "label": "leave",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e15",
+        "source": "dataset",
+        "target": "jobs",
+        "label": "contain",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e16",
+        "source": "jobs",
+        "target": "job",
+        "label": "prepare",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e17",
+        "source": "arima",
+        "target": "nb",
+        "label": "outperform",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e18",
+        "source": "trans",
+        "target": "mse",
+        "label": "generalize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e19",
+        "source": "trans",
+        "target": "0",
+        "label": "generalize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e20",
+        "source": "trans",
+        "target": "1",
+        "label": "generalize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e21",
+        "source": "trans",
+        "target": "2",
+        "label": "generalize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e22",
+        "source": "trans",
+        "target": "method",
+        "label": "generalize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e23",
+        "source": "cpu",
+        "target": "mse",
+        "label": "generalize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e24",
+        "source": "cpu",
+        "target": "0",
+        "label": "generalize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e25",
+        "source": "cpu",
+        "target": "1",
+        "label": "generalize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e26",
+        "source": "cpu",
+        "target": "2",
+        "label": "generalize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e27",
+        "source": "cpu",
+        "target": "method",
+        "label": "generalize",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e28",
+        "source": "restrictions",
+        "target": "mse",
+        "label": "apply",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e29",
+        "source": "training",
+        "target": "arima",
+        "label": "need",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e30",
+        "source": "transformer",
+        "target": "time",
+        "label": "require",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e31",
+        "source": "evaluating",
+        "target": "systems",
+        "label": "workload",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e32",
+        "source": "cloud",
+        "target": "14",
+        "label": "compute",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e33",
+        "source": "clusterdata",
+        "target": "azurepublicdataset",
+        "label": "azurepublicdataset",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e34",
+        "source": "clusterdata",
+        "target": "azure",
+        "label": "azurepublicdataset",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e35",
+        "source": "azure",
+        "target": "azurepublicdataset",
+        "label": "azurepublicdataset",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e36",
+        "source": "cloud",
+        "target": "management",
+        "label": "datacentre",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e37",
+        "source": "cloud",
+        "target": "transactions",
+        "label": "datacentre",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e38",
+        "source": "cloud",
+        "target": "network",
+        "label": "datacentre",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e39",
+        "source": "cloud",
+        "target": "service",
+        "label": "datacentre",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e40",
+        "source": "cloud",
+        "target": "transactions",
+        "label": "comput",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e41",
+        "source": "cloud",
+        "target": "ieee",
+        "label": "comput",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e42",
+        "source": "conference",
+        "target": "icdcn",
+        "label": "distribute",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e43",
+        "source": "conference",
+        "target": "machinery",
+        "label": "distribute",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e44",
+        "source": "conference",
+        "target": "computing",
+        "label": "distribute",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e45",
+        "source": "conference",
+        "target": "networking",
+        "label": "distribute",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e46",
+        "source": "conference",
+        "target": "association",
+        "label": "distribute",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e47",
+        "source": "conference",
+        "target": "systems",
+        "label": "distribute",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e48",
+        "source": "icdcs",
+        "target": "ieee",
+        "label": "page",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e49",
+        "source": "centralized",
+        "target": "management",
+        "label": "federate",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e50",
+        "source": "centralized",
+        "target": "transactions",
+        "label": "federate",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e51",
+        "source": "centralized",
+        "target": "network",
+        "label": "federate",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e52",
+        "source": "centralized",
+        "target": "service",
+        "label": "federate",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e53",
+        "source": "restrictions",
+        "target": "4",
+        "label": "apply",
+        "paper": "PDF"
+      }
+    },
+    {
+      "data": {
+        "id": "e54",
+        "source": "restrictions",
+        "target": "arima",
+        "label": "apply",
+        "paper": "PDF"
+      }
+    }
+  ]
+}

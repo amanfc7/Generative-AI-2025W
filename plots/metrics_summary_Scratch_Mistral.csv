@@ -1,0 +1,19 @@
+Metric,Value
+Scratch Nodes,958.0
+Mistral Nodes,130.0
+Scratch Edges,55.0
+Mistral Edges,135.0
+Common Nodes,24.0
+Node Overlap Ratio,0.025052192066805846
+Common Edges,0.0
+Edge Precision,0.0
+Edge Recall,0.0
+Edge F1,0.0
+Edge Accuracy,0.0
+Edge Jaccard Similarity,0.0
+Scratch Avg Degree,2.1176470588235294
+Mistral Avg Degree,2.3689320388349513
+Scratch Density,0.021176470588235293
+Mistral Density,0.01161241195507329
+Scratch Largest CC,24.0
+Mistral Largest CC,49.0

@@ -6,11 +6,12 @@ from typing import Dict, Any, List
 import requests
 import fitz # PyMuPDF
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL = "mistral:7b-instruct"  # change to what you pulled in ollama
+OLLAMA_URL = "http://localhost:11434/api/chat"
+
+MODEL = "llama3"    #"mistral:7b"      # (can be changed dynamically before calling main)
 SYSTEM_PROMPT = open("prompt.txt").read()
 
-MAX_CHUNKS = 1   # 👈 DEBUG: process only the first chunk
+MAX_CHUNKS = None   # write "None" to process all chunks; change to integer if needed
 
 def get_pdfs() -> List[str]:
     PDF_DIR = Path("pdfs")   # relative path
@@ -27,6 +28,9 @@ class Triple:
     source: str
 
 def call_ollama(prompt: str) -> Dict[str, Any]:
+    """
+    Call the Ollama server to get triples for a chunk of text
+    """
     schema = {
         "type": "object",
         "properties": {
@@ -52,18 +56,19 @@ def call_ollama(prompt: str) -> Dict[str, Any]:
 
     payload = {
         "model": MODEL,
-        "prompt": prompt,
-        "system": SYSTEM_PROMPT,
-        "format": schema,          # 👈 key point
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": prompt}
+        ],
+        "format": schema,
         "stream": False,
-        "options": {"temperature": 0.1},
+        "options": {"temperature": 0.1}
     }
 
-    r = requests.post(OLLAMA_URL, json=payload, timeout=180)
+    r = requests.post(OLLAMA_URL, json=payload, timeout=600)
     r.raise_for_status()
 
-    # Ollama guarantees valid JSON here
-    return json.loads(r.json()["response"])
+    return json.loads(r.json()["message"]["content"])
 
 def extract_text(pdf_path: str) -> str:
     doc = (fitz.open(pdf_path))
@@ -72,7 +77,7 @@ def extract_text(pdf_path: str) -> str:
         pages.append(doc[i].get_text("text"))
     return "\n".join(pages)
 
-def chunk_text(text: str, max_chars: int = 6000) -> List[str]:
+def chunk_text(text: str, max_chars: int = 5000) -> List[str]:
     # naive chunking by paragraphs; good enough for v0
     paras = [p.strip() for p in text.split("\n\n") if p.strip()]
     chunks, cur = [], ""
@@ -87,8 +92,10 @@ def chunk_text(text: str, max_chars: int = 6000) -> List[str]:
     return chunks
 
 def normalize(x: str) -> str:
-    x = x.strip()
-    x = re.sub(r"\s+", " ", x)
+    # Match scratch KG normalization: lowercase, remove punctuation, underscores
+    x = x.strip().lower()
+    x = re.sub(r"[^a-z0-9_ ]", "", x)  # remove punctuation
+    x = re.sub(r"\s+", "_", x)
     return x
 
 def dedupe_triples(triples: List[Triple]) -> List[Triple]:

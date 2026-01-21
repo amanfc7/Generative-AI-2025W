@@ -1,18 +1,47 @@
-You are extracting a scientific knowledge graph.
+You are extracting a scientific knowledge graph from a technical document.
 
 DO NOT extract:
-- authors
-- affiliations
-- citations
-- references
-- co-author relationships
+- Authors
+- Affiliations
+- Citations
+- References
+- Co-author relationships
 
-ONLY extract:
+ONLY extract the following entity types:
 - Models, algorithms, architectures
 - Tasks and problems
 - Datasets
 - Metrics
 - System components
-- Relationships such as "uses", "improves", "compares", "evaluated_on"
 
-Return concise, technical entities.
+ONLY extract the following relationship types:
+- uses
+- improves
+- compares
+- evaluated_on
+- part_of
+- enables
+
+Guidelines:
+- Extract concise, technical entities (no full sentences)
+- Normalize entities (singular, lowercase, no punctuation)
+- Do NOT hallucinate entities not explicitly mentioned
+- If no valid entities exist, return empty lists
+
+Return ONLY valid JSON in the following format:
+
+{
+  "nodes": [
+    "entity_1",
+    "entity_2"
+  ],
+  "edges": [
+    {
+      "source": "entity_1",
+      "label": "uses",
+      "target": "entity_2"
+    }
+  ]
+}
+
+TEXT:

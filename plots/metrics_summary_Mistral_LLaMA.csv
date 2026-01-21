@@ -1,0 +1,19 @@
+Metric,Value
+Mistral Nodes,130.0
+LLaMA Nodes,114.0
+Mistral Edges,135.0
+LLaMA Edges,139.0
+Common Nodes,97.0
+Node Overlap Ratio,0.7461538461538462
+Common Edges,81.0
+Edge Precision,0.5827338129496403
+Edge Recall,0.6
+Edge F1,0.5912408759124087
+Edge Accuracy,0.41968911917098445
+Edge Jaccard Similarity,0.41968911917098445
+Mistral Avg Degree,2.3689320388349513
+LLaMA Avg Degree,2.48
+Mistral Density,0.01161241195507329
+LLaMA Density,0.012525252525252526
+Mistral Largest CC,49.0
+LLaMA Largest CC,39.0

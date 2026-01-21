@@ -1,0 +1,19 @@
+Metric,Value
+Scratch Nodes,958.0
+LLaMA Nodes,114.0
+Scratch Edges,55.0
+LLaMA Edges,139.0
+Common Nodes,24.0
+Node Overlap Ratio,0.025052192066805846
+Common Edges,0.0
+Edge Precision,0.0
+Edge Recall,0.0
+Edge F1,0.0
+Edge Accuracy,0.0
+Edge Jaccard Similarity,0.0
+Scratch Avg Degree,2.1176470588235294
+LLaMA Avg Degree,2.48
+Scratch Density,0.021176470588235293
+LLaMA Density,0.012525252525252526
+Scratch Largest CC,24.0
+LLaMA Largest CC,39.0

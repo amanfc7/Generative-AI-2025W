@@ -93,6 +93,12 @@
     <button id="btnFit">Fit</button>
     <button id="btnReset">Reset focus</button>
     <button id="btnLabels">Toggle labels</button>
+
+    <!-- NEW: Dropdown to select JSON file -->
+    <select id="fileSelector" title="Select KG JSON">
+        <option value="triples_llama.json">Triples LLaMA</option>
+        <option value="triples_mistral.json">Triples Mistral</option>
+    </select>
 </div>
 
 <div id="wrap">
@@ -119,7 +125,6 @@
     }
 
     function hasFcose() {
-        // If the extension registered successfully, Cytoscape will know the layout name.
         try {
             return typeof cy.layout({ name: "fcose" }).run === "function";
         } catch {
@@ -165,7 +170,6 @@
     }
 
     function enableFocusMode() {
-        // Click node => focus neighborhood (super useful in dense graphs)
         cy.on("tap", "node", (evt) => {
             const n = evt.target;
             const hood = n.closedNeighborhood();
@@ -180,18 +184,15 @@
             setInfo({ type: "node", ...n.data() });
         });
 
-        // Click edge => show details
         cy.on("tap", "edge", (evt) => {
             const e = evt.target;
 
-            // keep current focus but highlight the edge
             cy.edges().removeClass("highlight");
             e.addClass("highlight");
 
             setInfo({ type: "edge", ...e.data() });
         });
 
-        // Click background => reset
         cy.on("tap", (evt) => {
             if (evt.target === cy) resetFocus();
         });
@@ -230,21 +231,24 @@
     }
 
     function hashToHue(str) {
-        // deterministic “nice enough” hue from string
         let h = 0;
         for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
         return h % 360;
     }
 
-    async function main() {
-        const res = await fetch("./triples.json");
-        if (!res.ok) throw new Error(`Failed to load triples.json: ${res.status} ${res.statusText}`);
+    // NEW: Load KG from selected JSON
+    const fileSelector = document.getElementById("fileSelector");
+
+    async function loadKG(file) {
+        const res = await fetch(`./${file}`);
+        if (!res.ok) throw new Error(`Failed to load ${file}: ${res.status} ${res.statusText}`);
         const data = await res.json();
 
-        // quick sanity
         if (!data || !Array.isArray(data.nodes) || !Array.isArray(data.edges)) {
-            throw new Error("triples.json must be { nodes: [...], edges: [...] }");
+            throw new Error(`${file} must be { nodes: [...], edges: [...] }`);
         }
+
+        if (cy) cy.destroy(); // destroy previous instance
 
         cy = cytoscape({
             container: document.getElementById("cy"),
@@ -264,7 +268,6 @@
                         "border-width": 2
                     }
                 },
-                // color by node type
                 {
                     selector: "node[type]",
                     style: {
@@ -292,7 +295,6 @@
                         "width": 1.5
                     }
                 },
-                // edge color by label (relation)
                 {
                     selector: "edge[label]",
                     style: {
@@ -318,20 +320,19 @@
         hookSearch();
         hookToolbar();
 
-        // initial layout
         runLayout(document.getElementById("layoutSel").value);
 
-        // initial info
         setInfo({
             hint: "Click a node to focus its neighborhood. Click background to reset.",
             layout: "auto (fcose → cose)"
         });
     }
 
-    main().catch(err => {
-        console.error(err);
-        alert(err.message);
-    });
+    // Initial load
+    loadKG(fileSelector.value);
+
+    // Load new JSON when selection changes
+    fileSelector.addEventListener("change", (e) => loadKG(e.target.value));
 </script>
 </body>
 </html>

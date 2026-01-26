@@ -57,3 +57,8 @@ tqdm
 pandas
 requests
 PyMuPDF
+<<<<<<< HEAD
+=======
+streamlit
+pyvis
+
